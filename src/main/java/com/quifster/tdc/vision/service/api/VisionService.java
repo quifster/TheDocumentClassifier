@@ -7,9 +7,9 @@ import java.security.GeneralSecurityException;
 import java.util.List;
 
 /**
- * Created by Iain on 9/26/2016.
+ * Interface for scanning images.
  */
 public interface VisionService {
 
-    List<EntityAnnotation> scanImage() throws GeneralSecurityException, IOException;
+    List<EntityAnnotation> scanImage(byte[] image) throws GeneralSecurityException, IOException;
 }
