@@ -23,7 +23,6 @@ public class GoogleVisionImplementation implements VisionService {
 
     private static final String APPLICATION_NAME = "the-document-classifier";
 
-    @Override
     public List<EntityAnnotation> scanImage(byte[] image) throws GeneralSecurityException, IOException {
         Vision vision = authenticate();
         AnnotateImageRequest request = new AnnotateImageRequest()

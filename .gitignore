@@ -1,24 +1,9 @@
-.gradle
-/build/
-!gradle/wrapper/gradle-wrapper.jar
-
-### STS ###
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
+### Back End ###
+#### Gradle ####
+backend/.gradle
+#### Build ####
+backend/build/
 
 ### IntelliJ IDEA ###
 .idea
-*.iws
 *.iml
-*.ipr
-
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
